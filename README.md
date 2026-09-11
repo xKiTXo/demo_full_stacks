@@ -3,7 +3,7 @@
 Full-stack e-commerce demo for PC components (catalog, cart, checkout, orders, Stripe payment).
 
 **Demo:** https://www.jerryng.site/
-
+**Update:** Remove register account, delete brand, categroy, product...
 ---
 
 ## Tech stack

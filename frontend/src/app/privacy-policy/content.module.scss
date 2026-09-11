@@ -1,0 +1,40 @@
+.content_use {
+	padding: 2rem;
+  ol {
+    display: block;
+    list-style-type: decimal;
+    list-style-position: outside;
+    list-style-image: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; /* Provides the indentation for bullets */
+  }
+
+  li {
+    list-style-type: disc; /* Filled circle marker (inherited from <ul>) */
+    list-style-position: outside; /* Marker sits outside the main content box */
+    list-style-image: none; /* No custom image used for the marker */
+    margin-top: 1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 2;
+  }
+
+}

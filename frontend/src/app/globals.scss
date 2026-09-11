@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+
+// custom react-toastify
+.Toastify__toast-container--top-right {
+  top: 5rem !important; /* Increase or decrease top offset */
+  right: 1rem !important; /* Increase or decrease right offset */
+}
